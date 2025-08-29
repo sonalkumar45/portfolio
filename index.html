@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sonal Kumar's personal portfolio showcasing projects, skills, and resume.">
+  <title>Sonal Kumar | Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="#home">Sonal.</a></div>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <div class="profile-pic" data-aos="fade-down">
+        <img src="profile.jpg" alt="Sonal Kumar Profile Picture">
+      </div>
+      <h1 data-aos="fade-up">Hello, I'm <span class="name">Sonal</span></h1>
+      <p class="tagline" data-aos="fade-up" data-aos-delay="200">
+        I am an <span id="typed-text"></span>
+      </p>
+      <div data-aos="fade-up" data-aos-delay="400">
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <strong>Sonal Kumar</strong>, a passionate and detail-oriented 
+      <strong>B.Tech Computer Science student</strong> at Mallareddy College of Engineering and Technology, 
+      with a strong interest in <strong>Data Science</strong> and <strong>Software Development</strong>.
+    </p>
+    <p>
+      I enjoy building interactive and dynamic websites and applications. 
+      I’ve worked on projects like a SMART-EXAM: Proctor & Grader and a Python-based E-Commerce System.
+      My goal is to combine creativity with problem-solving to deliver impactful solutions.
+    </p>
+    <p>
+      Currently, I’m seeking opportunities where I can apply my skills, learn from real-world challenges, 
+      and grow as a developer. I am open to internships and entry-level roles in <strong>Web Development</strong> 
+      or <strong>Data Science</strong>.
+    </p>
+  </section>
+
+  <section id="resume" class="section" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p class="subtitle">Click the button below to view or download my resume.</p>
+    <a href="Resume.pdf" target="_blank" class="btn">View Resume <i class="fas fa-external-link-alt"></i></a>
+  </section>
+
+  <section id="education" class="section" data-aos="fade-up">
+    <h2>Education</h2>
+    <p class="subtitle">A quick look at my academic journey.</p>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>B.Tech in CSE - Data Science</h3>
+          <p class="timeline-meta">Malla Reddy College of Engineering & Technology | Aug 2023 – Jun 2027</p>
+          <p class="timeline-grade">CGPA: 8.0/10</p>
+          <p>Key Coursework: Data Structures, Algorithms, DBMS, OS, Computer Networks, Machine Learning.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Intermediate (P.C.M)</h3>
+          <p class="timeline-meta">Bhupesh Gupta Intermediate College | Aug 2021 – Mar 2023</p>
+          <p class="timeline-grade">Score: 82%</p>
+          <p>Focused on Mathematics, Physics, and Chemistry. Participated in state-level math contests.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>SSC (Class X)</h3>
+          <p class="timeline-meta">Utkramit Madhyamik Vidyalaya Kota Nuow | Jun 2011 – May 2021</p>
+          <p class="timeline-grade">Score: 75%</p>
+          <p>Served as a class representative and won the school science fair for a computer-vision mini-project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section" data-aos="zoom-in">
+    <h2>Skills & Tools</h2>
+    <div class="skills-container">
+      <div class="skill-item" title="HTML5"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+      <div class="skill-item" title="CSS3"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+      <div class="skill-item" title="JavaScript"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="skill-item" title="Python"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+      <div class="skill-item" title="Java"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+      <div class="skill-item" title="C"><i class="devicon-c-plain colored"></i><span>C</span></div>
+      <div class="skill-item" title="SQL"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div>
+      <div class="skill-item" title="PostgreSQL"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+      <div class="skill-item" title="React"><i class="devicon-react-original colored"></i><span>React</span></div>
+      <div class="skill-item" title="Tableau"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" class="skill-icon"><span>Tableau</span></div>
+      <div class="skill-item" title="Power BI"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" class="skill-icon"><span>Power BI</span></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <h3>SMART-EXAM: PROCTOR & GRADER</h3>
+        <p>An intelligent assessment platform with AI-based proctoring and automated grading to enhance security and efficiency in online exams.</p>
+        <div class="tech-stack">
+          <span>AI/ML</span>
+          <span>Python</span>
+          <span>OpenCV</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" class="project-link">Live Demo <i class="fas fa-globe"></i></a>
+          <a href="#" target="_blank" class="project-link">Source Code <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <h3>E-Commerce System</h3>
+        <p>An interactive Python E-Commerce System using Tkinter for the GUI and SQLite for database management, featuring cart operations and an admin panel.</p>
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>Tkinter</span>
+          <span>SQLite</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" class="project-link">Live Demo <i class="fas fa-globe"></i></a>
+          <a href="#" target="_blank" class="project-link">Source Code <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="connect" class="section connect-section" data-aos="fade-up">
+    <h2>Connect With Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/sonalkumar005" target="_blank" class="social-icon" data-aos="zoom-in" data-aos-delay="0"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/sonal-kumar-268394312" target="_blank" class="social-icon" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/_m.r_s.o.n.a.l_y.a.d.a.v_45" target="_blank" class="social-icon" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/+919693078586" target="_blank" class="social-icon" data-aos="zoom-in" data-aos-delay="300"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:sona2872005@gmail.com" target="_blank" class="social-icon" data-aos="zoom-in" data-aos-delay="400"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2 data-aos="zoom-in">Get In Touch</h2>
+    <form id="contact-form" data-aos="fade-up" data-aos-delay="100">
+      <input type="text" name="from_name" placeholder="Your Name" required data-aos="fade-right" data-aos-delay="200">
+      <input type="email" name="from_email" placeholder="Your Email" required data-aos="fade-left" data-aos-delay="300">
+      <textarea name="message" placeholder="Your Message" rows="5" required data-aos="fade-up" data-aos-delay="400"></textarea>
+      <button id="contact-submit" type="submit" class="btn" data-aos="zoom-in" data-aos-delay="500">Send Message</button>
+      <p id="contact-status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sonal Kumar. All Rights Reserved.</p>
+    <p class="thanks">Thank you for visiting! ☺️🤗</p>
+  </footer>
+  
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
